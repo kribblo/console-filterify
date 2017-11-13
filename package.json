@@ -1,0 +1,24 @@
+{
+  "name": "console-filterify",
+  "version": "1.0.0",
+  "description": "Browserify transform that wraps all `console.*` calls in a filtering function that can be changed live directly in the browser.",
+  "main": "console-filterify.js",
+  "scripts": {
+    "test": "tape tests/test*.js"
+  },
+  "keywords": [
+    "console",
+    "logging",
+    "browserify",
+    "transform"
+  ],
+  "author": "Kristoffer Lundén <kristoffer.lunden@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "browserify-transform-tools": "^1.7.0"
+  }
+}
