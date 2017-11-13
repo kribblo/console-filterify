@@ -18,7 +18,7 @@ The usual approach to filtering or coloring or decorating loggers are to have a 
 /**
 * @param {string} level The log level such as log, warn error etc
 * @param {array} args   Array of original arguments
-* @return  {array} of arguments, possibly modified, or undefined to silence this log line 
+* @return {array} of arguments, possibly modified, or undefined to silence this log line 
 */
 console.filterify = function(level, args) {
     if(['warn', 'error'].indexOf(level) > -1) {
