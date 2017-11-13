@@ -4,6 +4,7 @@
   "description": "Browserify transform that wraps all `console.*` calls in a filtering function that can be changed live directly in the browser.",
   "main": "console-filterify.js",
   "scripts": {
+    "prepublishOnly": "npm test",
     "test": "tape tests/test*.js"
   },
   "keywords": [
